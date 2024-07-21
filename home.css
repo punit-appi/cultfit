@@ -1,0 +1,57 @@
+#parent {
+    background-image: url(CULTIMAGE.webp);
+    height: 600px;
+}
+.icon {
+    height: 50px;
+    width: 10%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+}
+.red {
+    color: red;
+}
+.bb {
+    color: white;
+}
+#parent2 {
+    display: flex;
+    justify-content: space-around;
+}
+#child1{
+        
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+}
+#child2{
+   
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+    
+}
+#child1>img{
+    height: 100px;
+    width: 100px;
+    
+}
